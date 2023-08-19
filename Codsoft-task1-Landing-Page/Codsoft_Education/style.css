@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,500&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* Part of Header */
+.container{
+    max-width: 80vw;
+}
+.section1 i{
+    padding: 3px;
+}
+.section1 p{
+    text-align: center;
+}
+.nav{
+    background: rgb(43, 204, 83);;
+    margin: 10px;
+    padding: 1px;
+    font-weight: bold;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    background: rgb(43,204,83);
+}
+.navbar li{
+    list-style: none;
+    margin: 0  12px;
+    cursor: pointer;
+}
+.navbar li:hover{
+    color: rgb(88, 88, 82);
+    /* background-color: rgb(194, 192, 159); */
+}
+.navbar li button:hover{=
+    /* color: rgb(225, 31, 13); */
+    background-color: rgb(31, 132, 5);
+    border: 2px solid rgb(14, 167, 14);
+}
+.navbar li button:active{
+    /* color: rgb(225, 31, 13); */
+    background-color: rgb(155, 160, 8);
+    border: 2px solid rgb(155,160,8);
+}
+.topleft{
+    width: 50%;   
+    height: 50vh;
+    
+}
+.topright{
+    width: 50%;
+    height: 50vh;
+}
+
+/* Part of Section 1 */
+
+.section1{
+    height:50vh ;
+}
+.logo{
+    
+    width: 10px;
+}
+.img-size{
+    width: 600px;
+    align-self: center;
+
+}
+
+/* Part of Section 2 */
+.section2{
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
+.section2 h1{
+    font-size: 2rem;
+}
+
+.section2 p{
+    width: 840px;
+    padding-left: 114px
+}
+
+.section2 .btn:hover{
+    background-color: rgb(31, 132, 5);
+    border: 2px solid rgb(14, 167, 14);
+}
+
+
+.box{
+    padding:8px 0 ;
+    margin: 20px 20px;
+    min-width: 35vw;
+    border: 2px solid black;
+    min-width:20vw;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box ul{
+    list-style: none;
+}
+
+.box ul li{
+    margin: 12px 12px;
+}
+
+.box ul li button{
+    border-radius: 0;
+    width: 280px;
+    text-align: center;
+}
+
+.box ul li button{
+    border-radius: 5px;
+    width: 280px;
+    text-align: center;
+}
+.box h2{
+    font-size: 2rem; ;
+}
+.highlighted{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+/* Part of Section 3 */
+
+.section3{
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
+.section3 h1{
+    font-size: 2rem;
+}
+
+.section3 p{
+    width: 840px;
+    padding-left: 114px
+}
+
+.section3 .btn:hover{
+    background-color: rgb(31, 132, 5);
+    border: 2px solid rgb(14, 167, 14);
+}
+
+
+.box{
+    padding:8px 0 ;
+    margin: 20px 20px;
+    min-width: 35vw;
+    border: 2px solid black;
+    min-width:20vw;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box ul{
+    list-style: none;
+}
+
+.box ul li{
+    margin: 12px 12px;
+}
+
+.box ul li button{
+    border-radius: 0;
+    width: 280px;
+    text-align: center;
+}
+
+.box ul li button{
+    border-radius: 5px;
+    width: 280px;
+    text-align: center;
+}
+.box h2{
+    font-size: 2rem; ;
+}
+.highlighted{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+footer{
+    padding: 14px;
+    background-color: lightgrey;
+    margin: 9px;
+}
